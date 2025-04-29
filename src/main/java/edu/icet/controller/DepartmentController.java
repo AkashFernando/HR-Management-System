@@ -30,8 +30,8 @@ public class DepartmentController {
     }
 
     @PutMapping("/update-department")
-    public void updateStudent(@RequestBody Department student) {
-        service.updateDepartment(student);
+    public void updateDepartment(@RequestBody Department department) {
+        service.updateDepartment(department);
     }
 
     @GetMapping("/search-by-id/{id}")

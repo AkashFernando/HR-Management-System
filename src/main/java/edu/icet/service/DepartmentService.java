@@ -11,9 +11,9 @@ public interface DepartmentService {
 
     void deleteDepartment(Integer departmentID);
 
-    void updateDepartment(Department student);
-
     Department searchById(Integer departmentID);
 
     List<Department> searchByName(String departmentName);
+
+    void updateDepartment(Department department);
 }
