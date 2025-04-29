@@ -21,6 +21,6 @@ public class DepartmentEntity {
     private String departmentName;
     @Column(length = 12)
     private Integer count;
-    @Column(length = 12)
+    @Column(length = 20)
     private String email;
 }

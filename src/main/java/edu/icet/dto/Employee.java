@@ -16,7 +16,7 @@ import java.time.LocalDate;
 @ToString
 public class Employee {
 
-    private String id;
+    private Integer id;
     @NotBlank(message = "please add a name")
     private  String name;
     private String department;
